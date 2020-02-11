@@ -4,7 +4,7 @@ const {Blog, User} = require('./model')
     const zhangsan = await User.findOne({
         attributes: ['userName','nickName'],
         where: {
-            userName: '李四'
+            userName: '李四2'
         }
     })
 
